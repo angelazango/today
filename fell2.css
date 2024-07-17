@@ -1,0 +1,690 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between ;
+    border-bottom: 2px solid grey;
+    margin: 1rem 4rem 2rem 4rem ;
+    .small-c .circle{
+        color:white ;
+        background-color: blueviolet;
+        border-radius: 50%;
+        font-size: 1.8rem;
+        padding:0.1rem 0.6rem ;
+    }
+
+    nav .menu{
+        display: flex;
+       .Home{
+            color: blue;
+        }
+        li{
+            margin-left: 1.8rem;
+        }
+    }
+}
+.bus{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1.5rem;
+    .text{
+        font-size: 48px;
+        margin-left: 5.9rem;
+       
+    }
+   
+    .seen{
+        display: flex;
+        font-size: 0.9rem;
+      
+        img {
+            border-radius: 23px;
+            margin-left: -7rem;
+
+        }
+        .art{
+            margin-left: 3.7rem;
+    
+        }
+
+    
+    }
+    .long img{
+        width: 700px;
+        height: 600px;
+        margin-right: 10rem;
+    }
+    
+    }
+    
+    .colour{
+        background-image: linear-gradient(90deg,blue ,green);
+        background-clip: text;
+        color: transparent;
+    }
+    .cta-buttons {
+        display: flex;
+        gap: 1rem;
+        margin-top: 1rem;
+
+    }
+    
+    .primary-btn,
+    .secondary-btn {
+        padding: 0.8rem 1.5rem;
+        border: none;
+        cursor: pointer;
+        font-size: 1rem;
+    }
+    
+    .primary-btn {
+        background: #007BFF;
+        color: #fff;
+        border-radius: 8px;
+    }
+    
+    .secondary-btn {
+        background: #fff;
+        border: 1px solid #007BFF;
+        border-radius:8px;
+        color: #007BFF;
+    }
+
+
+.sec2{
+    display: flex;
+    justify-content: space-between;
+    .experience{
+        display: flex;
+        gap: 1.2rem;
+    }
+    .ratings{
+        display: flex;
+        column-gap: 2rem;
+    }
+}
+
+.sec4{
+    .trust{
+        margin-top: 6rem;
+        margin-left: 26rem;
+    }
+    .icons .linear{
+                display:flex;
+            column-gap: 8rem;
+            margin-left: 13rem;
+            .wel {
+                font-size: 2rem;
+                font-weight: bold;
+            
+                
+                
+            } }
+        }
+    /*--======================================== SECTION TWO============================================--*/
+.sec2{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 4rem 0 16rem;
+}
+.ratings {
+    display: flex;
+    gap: 1.5rem;
+    margin-top:1.2rem;
+}
+.rating1 i{
+    color:hsl(50, 81%, 56%);
+    font-size: 15px;
+}
+.rating1 p{
+    line-height: 1px;
+    margin-bottom:12px;
+}
+.rating1 p{
+    font-size:25px;
+    font-weight: 600;
+}
+.rating .green_star{
+     color:#20A46D;
+     font-size: 15px;
+}
+.rating{
+    margin-top:.5rem;
+}
+.rating p{
+    font-size: 12px;
+    font-weight:600;
+}
+.rating .green_star_bg i{
+    color: white;
+    background: #20A46D;
+    font-size: 12px;
+    padding: .2rem .2rem;
+}
+.experience{
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    span{
+        color: grey;
+    }
+}
+.line{
+    width: 2px;
+    height: 3.3rem;
+    background: rgba(195, 195, 195, 0.7);
+    margin-top: 1.7rem;
+}
+.experience .span{
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 1px;
+}
+/*--======================================== SECTION TWO============================================--*/
+.Team{
+    text-align: center;
+    margin-top: 5rem;
+    p{
+        font-size:13px;
+        font-weight: 900;
+    }
+}
+.companies{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+.companies small{
+    margin-top:3rem;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+}
+.logo_sec{
+    display: flex;
+    gap: 8px;
+}
+
+/*--======================================== SECTION THREE (workflow)============================================--*/
+.workflow{
+     padding:3rem 4rem 3rem 4rem;
+     background:#0d172a;
+     
+
+    }
+    .Team_image{
+        width: 1500px;
+        height: 700px;
+        border-radius: 19px;
+        margin-left: 4rem;
+    }
+    .workflow1{
+        display: flex;
+        margin-left: 12rem;
+        column-gap: 4.8rem;
+        /* ====workflow-step===== */
+        .workflow-steps{
+            margin:2rem 0 2rem 0;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap:1.3rem;
+            /* ====steps===== */
+            .step{
+                border-radius:2px;
+                display: flex;
+                gap: 1rem;
+                line-height: 1rem;
+                border:1.5px solid #dbdcdf;
+                border-radius:6px;
+                /* ===icons===== */
+                i {
+                    color:#dbdcdf;
+                    background: #3d4555;
+                    height:16px;
+                    margin:1rem 1rem 0 1rem;
+                    padding: 1.4rem 1.4rem;
+                    border-radius:2rem;
+                }
+                /* === title==== */
+                h3{
+                    font-size:14px;
+                    color: #dbdcdf;
+                }
+                /*==== paragrph=== */
+                p{
+                    font-size:15px;
+                    color: #5b6272;
+                    width:200px;
+                }
+
+            }
+        }
+ 
+    }
+
+    
+
+.right{
+    animation: right 2s ease-out both alternate;
+  }
+  .btn{
+    animation: btn 1s linear 5s b alternate;
+    animation: beat 1s  cubic-bezier(0.44, -0.45, 0.57, 1.64) 6s forwards infinite alternate;
+  
+  }
+  .btn{
+    animation: btn 1s linear 5s b alternate;
+    animation: beat 1s  cubic-bezier(0.44, -0.45, 0.57, 1.64) 6s forwards infinite alternate;
+  
+  }
+
+  .white {
+    font-size: 2.7rem;
+    color: white;
+    margin-right: 9rem;
+    
+    .we{
+        font-size: 1.2rem;
+    }
+  }
+/*========================================================== M0BILE VIEW ============================================================*/
+  @media(max-width: 500px) {
+ }
+  /*========================================================== M0BILE VIEW ============================================================*/
+@media(max-width: 500px) {
+    body{
+        padding:0;
+        margin: 0;
+    }
+    #nav-links{
+        display: none;
+    }
+/*============================= SECTION ONE =====================================*/
+    .sec1{
+        display: inline-block;
+        h1{
+            font-size: 47px;
+            margin:4rem 0 0 3.7rem;
+            width: 380px;
+        }
+        .Hero_video{
+            display: inline-block;
+            .Hero_video1{
+                width:330px;
+                height: 330px;
+                margin-left: 3rem;
+            }
+            .sex1_text p{
+                width: 350px;
+                margin-left:2rem;
+                text-align: center;
+            }
+            .cta-buttons{
+                gap: 2.5rem;
+                margin-left: 1.5rem;
+            }
+        }
+        .hero-image{
+            width: 370px;
+            height: 390px;
+            margin:2rem 2rem;
+        }
+    }
+/*--======================================== SECTION TWO(RATE STAR OF THE COMPANY)============================================--*/
+    .sec2{
+        display: inline-block;
+        margin: 1rem 0 0 4.6rem;
+        padding: 0;
+    }
+        
+/*--======================================== SECTION TWO(TEAM OF COMPANY)============================================--*/
+    .Team{
+        .companies{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: .3rem;
+            align-items: center;
+            margin-left:3.5rem;
+            .logo_sec_cen{
+                margin-left: 6rem;
+            }
+        }
+    }
+    
+}
+ /*--------------------------------section4-----------------------------*/
+ .business-value{
+    display: flex;
+    gap: 9rem;
+   /* justify-content: space-between;*/
+    border-bottom: 1.5px solid rgba(195, 195, 195, 0.5);
+    padding-bottom: 1rem;
+    .value .serv{
+        font-size : 4.3rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .offers{
+    margin-bottom: -0.9rem;
+    }
+    
+}
+.services{
+    margin-left:4rem;
+    margin-right: 4rem;
+    margin-top: 2rem;
+    
+}
+.serv{
+    color: black;
+    font-family: Bahnschrift SemiBold;
+    font-weight: 300;
+}
+.offers{
+    width: 400px;
+    margin-right: 3rem;
+   
+}
+
+.dive{
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    border-bottom: 1.5px solid rgba(195, 195, 195, 0.5);
+}
+.pro,.pro1{
+    color: black;
+}
+.div{
+    display: flex;
+    justify-content: space-between;
+}
+.im{
+    margin-bottom: 2rem;
+}
+.small-image{
+    display: flex;
+}
+.small-image1{
+    margin-top: 1rem;
+    display:none;
+}
+.toggle-btn{
+    padding: 0.3rem 0.4rem;
+    .fa-minus{
+        padding: 0.3rem 0.4rem;
+        border-radius: 50%;
+        background-color: #007BFF;
+    }
+    .fa-plus{
+        padding: 0.3rem 0.4rem;
+        border-radius: 50%;
+        border: 1px solid grey;
+    }
+}
+.pro{
+    font-family: Arial Black;
+    font-size: x-large;
+}
+.pro1{
+    font-size: x-large;
+}
+.navi {
+    width: 500px;
+    margin-left: 1rem;
+}
+.navi p{
+    color: #5b6272;
+
+}
+.smal{
+    font-size: 10px;
+    margin-bottom: 2rem;
+}
+.set p{
+    font-size: x-large;
+}
+.evolution{
+    display: flex;
+    gap: 3rem;
+    margin-top: 5rem;
+    margin-left: 5.8rem;
+}
+.evo1{
+    color: black;
+    font-size: 4rem;
+      width: 650px;
+}
+.para4{
+    width: 490px;
+    margin-top: 5rem;
+    font-size: 23px;
+    color: rgb(43, 34, 34);
+}
+.aspect{
+    margin-top: 1rem;
+    width: 650px;
+}
+.esta{
+    width: 650px;
+}
+.evo-link{
+    font-size: 1.4rem;
+    margin-top: 0.rem;
+    border-radius: 44px;
+   margin-right: 30rem;
+    height: 70px;
+    width: 190px;
+    padding: 0.5rem 0.5rem;
+    background-color: #0649f5;
+    padding-left: 1rem;
+    padding-right: 1rem  ;
+}
+.evo-link a{
+    color: aliceblue;
+    font-size: smaller;
+}
+.evo-link:hover{
+    box-shadow: 0 0 20px 0px rgb(71, 61, 97);
+}
+.pictures{
+    margin-top: 5rem;
+}
+.meet{
+    color: black;
+    font-size: 56px;
+    margin-bottom: 1rem;
+}
+.explore {
+    color: #454952;
+    font-size: large;
+}
+.pics{
+    display: flex;
+    gap: 3rem;
+    margin-top: 2rem;    
+}
+.pic1{
+    border-radius : 500%;
+}
+.pic01{
+    color: black;
+    font-family: Arial Rounded MT Bold;
+    font-weight: 600;
+
+}
+.pic02{
+    color: black;
+    font-family: Arial Rounded MT Bold;
+    font-weight: 600;
+}
+.pic03{
+    color: black;
+    font-family: Arial Rounded MT Bold;
+    font-weight: 600;
+}
+.fit{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.medi {
+    gap: 1rem;
+    display: inline-block;
+    margin-bottom : 1rem;
+   column-gap: 2rem;
+    i{
+        border-radius:90%;
+        padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+        background:  rgb(1, 10, 17);
+        color: aliceblue;
+    }
+}
+/*--------------last-----------------*/
+
+.last{
+    margin-top: 4rem;
+    background-color: #0d172a;
+}
+.project{
+    font-family:  Helvetica;
+    display: flex;
+    
+    justify-content: space-between;
+    color: aliceblue;
+    margin: 4rem 11rem 4rem 4rem;
+    border-bottom: 1px solid rgba(195, 195, 195, 0.5);
+    padding-bottom: 3rem;
+}
+.project p{
+    margin-top: 3rem;
+    font-family: helvetica;
+     width: 800px;
+    font-size: 3.9rem;
+}
+.start-project a{
+    color: aliceblue;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 0.5rem;
+    padding-right: 1rem;
+    border-radius: 99rem;
+    background-color: #1532d6;
+    height: 103px;
+}
+.start-project{
+    margin-top: 5rem;
+    font-size: 10px;
+    height: 330%;
+}
+.start-project:hover{
+    box-shadow: 0 0 60px 20px rgb(98, 89, 226);
+}
+.idea{
+    color: aliceblue;
+}
+/*-------------footer------------------*/
+.foot{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom:  1px solid rgba(195, 195, 195, 0.5); 
+    padding-bottom: 4rem;
+    
+    color: aliceblue;
+    margin-right: 8rem;
+    margin-left: 3rem;
+    margin-top: 3rem;
+
+    .logo-last {
+        font-size: 1.5rem;
+    }
+    .logo-style{
+        color:white ;
+        background-color: blueviolet;
+        border-radius: 50%;
+        font-size: 1.rem;
+        padding:0.1rem 0.4rem ;
+
+    }
+}
+.sub{
+    color: aliceblue;
+}
+.sep{
+    margin-top: 3rem;
+    display: inline-flex;
+    gap: 3rem;
+    line-height: 1.9rem;
+    list-style: none;
+}
+.sep li{
+    color: #5b6272;
+}
+.sep2{
+    color: aliceblue;
+    line-height: 3rem;
+    font-size: large;
+    font-weight: 500;
+}
+.logo-last{
+    margin-top: 3rem;
+    list-style: none;
+    line-height: 4rem;
+    margin-left: 1rem;
+}
+.logo-style:hover{
+
+   box-shadow: 0 0 40px 12px rgb(98, 89, 226);
+}
+.site{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+}
+.term{
+    display: inline-flex;
+    gap: 2rem;
+    margin-left: 4rem;
+}
+.term p{
+    color: aliceblue;
+}
+.media{
+    margin-right: 9rem; 
+    display: flex;
+    gap: 2rem;
+}
+.site .media i{
+    background-color: rgb(1, 1, 17);
+  
+}
+/*------------email-button----------*/
+.input{
+    border-bottom: 1px solid rgba(195, 195, 195, 0.5);
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    height: 2rem;
+}
+.input1{
+    border: none;
+    background-color: transparent;
+    color: #dbdcdf;
+}
+button{
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    width: 3rem ;
+} 
